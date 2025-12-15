@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    height: 100vh;
+    width: 100%;
+    
+}
+.section{
+        
+    height: 400px;
+    width: 100%;
+    background-color: rgb(148, 244, 244);
+    margin-bottom: 10px;
+
+
+}
+.box-2{
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: darkkhaki;
+    margin: 8px;
+    align-content: center;
+    text-align: center;
+    
+    
+
+
+}
+.heading{
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 10px;
+}
+.output{
+    display: flex;
+    flex-wrap: wrap;
+
+    
+    
+}
+.nowrap{
+    flex-wrap: nowrap;
+}
+.wrap-reverse{
+       
+    flex-wrap: wrap-reverse;
+    
+    
+}
+.flex-direction-row{
+    display: flex;
+    flex-direction: row;
+    
+}
+.row {
+  display: flex;
+  margin: 15px 0;
+}
+
+.box {
+  width: 70px;
+  height: 100px;
+  background:darkkhaki;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  font-weight: bold;
+  
+  
+}
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.row-2 {
+  display: flex;
+   margin: 15px 0;
+
+ }
+.flex-row-wrap {
+    flex-wrap: wrap;
+}
+ .wrap-reverse {
+   flex-wrap: wrap-reverse;
+ }  
+ .row-nowrap {
+flex-wrap: nowrap;
+ }
+.wrap-reverse {
+display: flex;
+flex-direction: wrap-reverse;
+margin: 15px 0;
+}
+.nowrap-2 {
+flex-wrap: nowrap;
+flex-direction: column;
+}
+
+
+
+
